@@ -1,3 +1,4 @@
+/* Custom CSS */
 .honda-header-bg{
     background-color: #264653;
 }
@@ -9,7 +10,9 @@
     font-family: 'Poppins', sans-serif;
 }
 .honda-fonts-bold{
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 48px;
 }
 .honda-btn {
     display: inline-block;
@@ -30,6 +33,13 @@
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+/* $$$$$$$ */
+
 li>a{
     margin-right: 22px;
+}
+hr{
+    height: 1px;
+    background-color: #E76F51;
+    border: none;
 }
