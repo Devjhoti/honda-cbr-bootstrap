@@ -33,6 +33,22 @@
     border-radius: 0.25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.honda-btn:hover{
+    background-image: linear-gradient(#E76F51,rgb(241, 36, 0));
+}
+.card-btn{
+    width: 160px;
+    height: 57px;
+    padding: 15px;
+    color: #E76F51;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #E76F51;
+}
+.card-btn:hover{
+    color: white;
+    background-color: #E76F51;
+}
 /* $$$$$$$ */
 
 li>a{
