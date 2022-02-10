@@ -50,7 +50,7 @@
 }
 
 .honda-btn:hover {
-    background-image: linear-gradient(#E76F51, rgb(241, 36, 0));
+    background-image: linear-gradient(#E76F51, rgb(250, 130, 49));
 }
 
 .card-btn {
@@ -87,3 +87,29 @@ hr {
 button.accordion-button.collapsed.px-0.pt-0 {
     padding-bottom: 0;
 }
+/* Footer section  */
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+.footer-links ul li{
+    display: inline;
+}
+.footer-fonts{
+    
+    font-family: 'Manrope', sans-serif;
+}
+#copyright-2{
+    display:none ;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    #copyright-1{
+        display: none;
+    }
+    #copyright-2{
+        display: block;
+        text-align: center;
+    }
+  }
