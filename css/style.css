@@ -84,6 +84,7 @@ hr {
     padding: 7em 0;
 }
 
+
 button.accordion-button.collapsed.px-0.pt-0 {
     padding-bottom: 0;
 }
@@ -99,6 +100,9 @@ button.accordion-button.collapsed.px-0.pt-0 {
     
     font-family: 'Manrope', sans-serif;
 }
+#copyright-1{
+    padding-left: 30px;
+}
 #copyright-2{
     display:none ;
 }
@@ -111,5 +115,9 @@ button.accordion-button.collapsed.px-0.pt-0 {
     #copyright-2{
         display: block;
         text-align: center;
+    }
+    
+    .faq-img{
+        padding-left: 70px;
     }
   }
